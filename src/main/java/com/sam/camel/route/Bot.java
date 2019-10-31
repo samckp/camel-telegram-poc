@@ -15,6 +15,15 @@ public class Bot {
         }
 
         log.info("Received message: {}", message);
-        return "Jo Hukum mere Aaka....What can I do for you \"" + message.replace("\"", "-") + "\"?";
+
+        StringBuilder str = new StringBuilder();
+
+        int num = Integer.parseInt(message);
+            for(int i=1;i<=10;i++){
+               str.append(i * num);
+               str.append("\n");
+            }
+
+        return "Table of "+ num + " is \n" + str;
     }
 }
