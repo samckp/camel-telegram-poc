@@ -24,6 +24,6 @@ public class Bot {
                str.append("\n");
             }
 
-        return "Table of "+ num + " is \n" + str;
+        return "Table of given "+ num + " is \n" + str;
     }
 }
