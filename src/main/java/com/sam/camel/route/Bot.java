@@ -28,6 +28,6 @@ public class Bot {
             str.append(i * num);
             str.append("\n");
         }
-        return "Table of given "+ num + " is \n" + str;
+        return "Table of given number : "+ num + " is \n" + str;
     }
 }
